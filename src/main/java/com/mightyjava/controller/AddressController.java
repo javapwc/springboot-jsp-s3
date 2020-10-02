@@ -29,7 +29,8 @@ public class AddressController {
 	
 	private AddressService addressService;
 	private UserService userService;
-
+	
+	/*parameterize connection*/
 	@Autowired
 	public AddressController(AddressService addressService, UserService userService) {
 		this.addressService = addressService;
